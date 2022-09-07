@@ -35,6 +35,7 @@ groups
 | 5     | 16    | S(0.5,0.28,1)   |
 
 Take a linear mask, turn auto stretch off, preview mask, try zoom a preview and apply the changes to the preview, then extend your changes to the entire image. Always rename the images based on the changes you are making. 
+
 12. Manual Stretching: Open Histogram transformation, turn on real time preview and lock it. Drag slider to left, apply changes, keep dragging but be careful to check if you are clipping darks, midtones. Avoid clipping as much as possible. 
 13. Take luminance layer and run deconvolution to bring out the details, turn on deringing . 
 14. Run Multi scale linear transform on Luminance layer.
