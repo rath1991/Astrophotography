@@ -24,6 +24,8 @@ groups
 9. (Optional) Use PhotoMetric Color calibration, to bring out realistic colors. PCC can be hit or miss - in this case MISS. **Not used here**
 10.  Use background neutralization and color calibration with Pixinsights default settings. 
 11. Noise reduction -- Use **Multiscale Linear Transform** to remove background noise at various levels - we use 5 levels with settings:
+
+
 | Layer | Scale | Parameters      |
 |-------|-------|-----------------|
 | 1     | 1     | S(5.0,0.85,1)   |
@@ -31,6 +33,7 @@ groups
 | 3     | 4     | S(2.5,0.5,1)    |
 | 4     | 8     | S(0.75,0.33,1)  |
 | 5     | 16    | S(0.5,0.28,1)   |
+
 Take a linear mask, turn auto stretch off, preview mask, try zoom a preview and apply the changes to the preview, then extend your changes to the entire image. Always rename the images based on the changes you are making. 
 12. Manual Stretching: Open Histogram transformation, turn on real time preview and lock it. Drag slider to left, apply changes, keep dragging but be careful to check if you are clipping darks, midtones. Avoid clipping as much as possible. 
 13. Take luminance layer and run deconvolution to bring out the details, turn on deringing . 
