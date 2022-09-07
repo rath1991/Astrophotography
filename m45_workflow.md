@@ -1,12 +1,12 @@
 ## M45 Workflow 
-Processed using Pixinsight, Lightroom 
-Telescope: Takahashi FSQ-106ED (with 0.73x focal reducer) 
-Camera: FLI PL 16083
-Mount: Paramount MX+
-Filters:  Astrodon LRGB 2GEN
-Total integration: 1hour 20 minutes
-Location : IC Astronomy, Oria, Almaria, Spain
-Data acquired via @telescope.live
+* Processed using Pixinsight, Lightroom 
+* Telescope: Takahashi FSQ-106ED (with 0.73x focal reducer) 
+* Camera: FLI PL 16083
+* Mount: Paramount MX+
+* Filters:  Astrodon LRGB 2GEN
+* Total integration: 1hour 20 minutes
+* Location : IC Astronomy, Oria, Almaria, Spain
+* Data acquired via @telescope.live
 
 * Type of data - LRGB -- using LRGB (luminance, red, green, blue) filters to
 reduce the influence of light pollution from mercury, sodium vapor. 
